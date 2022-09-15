@@ -32,7 +32,7 @@ function displayHistory() {
     // newRow.classList.add("col");
     newRow.innerHTML = `
     <div class="card">
-    <h3>${test.questionText}</h3>
+    <h3 class="text-center">${test.questionText}</h3>
     <p>You took: <span class="bold">${parseInt(
       test.timeTaken
     )}</span> seconds</p>
